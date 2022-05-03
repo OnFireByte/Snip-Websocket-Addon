@@ -1,7 +1,10 @@
 {
+    "name": "snip-websocket-addon",
+    "version": "1.0.0",
+    "license": "MIT",
     "scripts": {
-        "dev": "npx tailwindcss -i ./css/style.css -o ./dist/style.css --watch",
-        "prod": "NODE_ENV=production postcss css/styles.css -o src/styles.css"
+        "dev": "npx tailwindcss -i ./css/style.css -o ./dist/tw.css --watch",
+        "build": "npx tailwindcss -i ./css/style.css -o ./dist/tw.css --minify"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.7",
