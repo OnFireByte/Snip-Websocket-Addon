@@ -24,5 +24,5 @@ ws.onmessage = function (evt) {
         if (i > 40) {
             clearInterval(setImageInterval);
         }
-    }, 10);
+    }, 15);
 };
