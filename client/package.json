@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "license": "MIT",
     "scripts": {
-        "dev": "npx tailwindcss -i ./css/style.css -o ./dist/tw.css --watch",
+        "dev": "npx tailwindcss -i ./css/style.css -o ./dist/tw.css --watch --minify",
         "build": "npx tailwindcss -i ./css/style.css -o ./dist/tw.css --minify"
     },
     "devDependencies": {
