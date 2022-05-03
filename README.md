@@ -35,7 +35,7 @@ This project also includes a simple webpage that can be used as an overlay in li
 4. compile go file
 
     ```bash
-    # without console *recomended*
+    # without console *recommended*
     go build -ldflags -H=windowsgui
 
     # with console
