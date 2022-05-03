@@ -6,7 +6,8 @@ import (
 	"net/http"
 	"os"
 
-    "icon"
+	"icon"
+
 	"github.com/fsnotify/fsnotify"
 	"github.com/getlantern/systray"
 	"github.com/gorilla/websocket"
@@ -24,8 +25,8 @@ type track struct {
 }
 
 var upgrader = websocket.Upgrader{
-    ReadBufferSize: 1024,
-    WriteBufferSize: 1024,
+    ReadBufferSize: 128,
+    WriteBufferSize: 512,
     CheckOrigin : func(r *http.Request) bool { return true },
 
 }
