@@ -21,7 +21,7 @@ ws.onmessage = function (evt) {
     let setImageInterval = setInterval(function () {
         document.getElementById("image").src = `http://${image}?t=${new Date().getTime()}`;
         i++;
-        if (i > 20) {
+        if (i > 40) {
             clearInterval(setImageInterval);
         }
     }, 10);
