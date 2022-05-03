@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: "DB HelvethaicaMon X Bd", "Sukhumvit Set Bold", "Kanit", sans-serif;
+    font-size: 28px;
+}
