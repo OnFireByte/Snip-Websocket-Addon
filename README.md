@@ -21,13 +21,11 @@ This project also includes a simple webpage that can be used as an overlay in li
 2. Go to /server/icon and run bat/sh file
     ### Windows (Powershell)
     ```powershell
-    cd .\server\icon\
-    .\make_icon.bat
+    .\server\icon\make_icon.bat
     ```
     ### Linux
     ```bash
-    cd .\server\icon\
-    .\make_icon.sh
+    .\server\icon\make_icon.sh
     ```
 3. Install go-winres and run (Optional, require for changing icon)
     ```bash
