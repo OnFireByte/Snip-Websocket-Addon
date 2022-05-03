@@ -1,2 +1,3 @@
 server/snip-websocket-addon.exe
 node_modules
+/server/icon/icon*.go
